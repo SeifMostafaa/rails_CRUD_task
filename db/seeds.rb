@@ -10,6 +10,6 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 Book.create!(title: "Book #1", description: "My First Book", admin_user_id: 1)
 Book.create!(title: "Book #2", description: "My Second Book", admin_user_id: 1)
 
-Chapter.create!(title: "Chapter #1", content: "Lorem Ipsum is simply dummy text of the printing and typesetting", book_id: 1)
-Chapter.create!(title: "Chapter #2", content: "Lorem Ipsum is simply dummy text of the printing and typesetting", book_id: 1)
-Chapter.create!(title: "Chapter #3", content: "Lorem Ipsum is simply dummy text of the printing and typesetting", book_id: 2)
+Chapter.create!(title: "Chapter #1", content: "Lorem Ipsum is simply dummy text of the printing and typesetting.", book_id: 1)
+Chapter.create!(title: "Chapter #2", content: "Lorem Ipsum is simply dummy text of the printing and typesetting.", book_id: 1)
+Chapter.create!(title: "Chapter #3", content: "Lorem Ipsum is simply dummy text of the printing and typesetting.", book_id: 2)

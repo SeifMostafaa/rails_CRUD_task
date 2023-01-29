@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# About the Task
+This is a simple implementaion for a blog CRUD application, it has both webapplication side implemented using activeadmin gem + REST APIs
+The Web application can be accessed through `http://localhost:3000/admin` and the API endpoints through `http://localhost:3000/api/...`
 
-Things you may want to cover:
+# Technology Stack
+* Ruby version 3.1.x
+* Rails 7.x.x
+* MySql
 
-* Ruby version
+# Getting Started
+* run `bundle install`
+* run `rails db:create`
+* run `rails db:migrate`
+* run `rails db:seed`
+* run `rails s`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
